@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color: chartreuse;
+}
+.bg-img {
+    /* The image used */
+    background-image: url("resources/images/AM_Background.jpg");
+  
+    min-height: 180px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 8px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #33333388;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .topnav a:hover {
+    background-color: #dddddd88;
+    color: black;
+  }
+
+  /* Collapsible */
+
+  .collapsible {
+    background-color: #363636;
+    color: #00ff00;
+    cursor: pointer;
+    padding: 0px 12px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 12px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #008800;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #111111;
+    text-align: center;
+  }
+  
+/* Collapsible End */

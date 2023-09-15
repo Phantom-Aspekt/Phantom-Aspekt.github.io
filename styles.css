@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: chartreuse;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("resources/images/PA_Background.jpg");
+  
+    min-height: 180px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 8px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #33333388;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .topnav a:hover {
+    background-color: #dddddd88;
+    color: black;
+  }
