@@ -6,7 +6,7 @@ body {
     /* The image used */
     background-image: url("resources/images/AM_Background.jpg");
   
-    min-height: 360px;
+    min-height: 180px;
   
     /* Center and scale the image nicely */
     background-position: center;
